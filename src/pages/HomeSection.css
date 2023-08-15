@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    /* background-color:blueviolet; */
+}
+.home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+    align-items: center;
+}
+.home-header a{
+    margin-right: 1.28rem;
+    color:black;
+    font-size: 0.93rem;
+}
+.home-header a:hover{
+    text-decoration: underline;
+}
+.home-header-right{
+    display: flex;
+    align-items: center;
+    max-width: 13vw;
+    justify-content: space-between;
+}
+/* .home-header-right>.MuiSvgIcon-root{
+    margin-right: 20px;
+} */
+.home-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5%;
+}
+.home-body img{
+    object-fit: contain;
+    height: 10.25rem;
+}

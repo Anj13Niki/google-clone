@@ -1,0 +1,20 @@
+.search-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height:1.77rem;
+    width:65vw;
+    padding: 0.62rem 1.15rem;
+    margin:0 auto;
+    max-width: 35rem;
+    border-radius: 999px;
+}
+.search-input> input{
+    flex:1;
+    padding: 0.62rem 1.15rem;
+    border: none;
+    font-size: medium;
+}
+.search-input input:focus{
+    outline-width: 0;
+}
